@@ -1,0 +1,14 @@
+.about_us_container > div{
+    background: var(--color-light);
+    margin-top: var(--mrg);
+    padding: var(--pd);
+    border-radius: 5px;
+}
+.about_us{
+    min-height: 80vh;
+}
+.about_us_container > div > h2{
+    color: var(--bg-secondary);
+    margin-bottom: var(--mrg-small);
+    text-align: center;
+}

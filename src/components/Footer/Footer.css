@@ -1,0 +1,32 @@
+.footer{
+    background: var(--color-light);
+    /* border-top: 1px solid var(--color-dark); */
+}
+
+.footer_inner{
+    display: flex;
+    padding: var(--pd) 10%;
+    justify-content: space-between;
+}
+
+.footer_info h4 span:nth-of-type(1){
+    color: var(--bg-secondary);
+}
+
+.footer_info h4 span{
+    color: red;
+}
+.footer_nav{
+    display: flex;
+}
+.footer_nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--bg-secondary);
+    margin-left: 10px;
+    transition: .2s;
+}
+.footer_nav a:hover{
+    color: var(--color-dark);
+}

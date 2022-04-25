@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background: var(--bg-secondary);
+    padding: var(--pd-small) 10%;
+    width: 100%;
+    z-index: 11111111;
+}
+.header a{
+    text-decoration: none;
+    color: var(--color-light);
+}
+.logo span{
+    font-weight: 700;
+    font-size: var(--font-medium);
+}
+.logo span:nth-of-type(1){
+    color: rgb(216, 24, 24);
+}
+.logo span:nth-of-type(2){
+    color: rgb(197, 254, 113);
+}
+.header_btn, .sell_btn{
+    border-radius: 5px;
+    padding: var(--pd-small);
+    border: 1px solid var(--color-light);
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-size: var(--font-small);
+    transition: .2s;
+    margin-left: var(--mrg-small);
+}
+.header_btn:hover{
+    background: var(--color-light);
+    color: var(--bg-secondary);
+}
+.sell_btn{
+    background: var(--color-light);
+    color: var(--bg-secondary);
+}
+.header_right{
+    display: flex;
+}
+.my_profile{
+    color: var(--color-light);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}

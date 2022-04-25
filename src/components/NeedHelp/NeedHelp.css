@@ -1,0 +1,36 @@
+.help {
+  min-height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help_inner {
+  background: var(--color-light);
+  padding: var(--pd-big);
+  border-radius: 5px;
+}
+.help_inner form {
+  display: flex;
+  flex-direction: column;
+}
+.help_inner form * {
+  margin-top: var(--mrg);
+  padding: var(--pd);
+  background: var(--bg-primary);
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.help_inner form button {
+  background: var(--bg-secondary);
+  color: var(--color-light);
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.help_inner form button:hover {
+  opacity: 0.8;
+}

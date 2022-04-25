@@ -1,0 +1,52 @@
+:root {
+  --bg-primary: #f3f4f6;
+  --bg-secondary: #8ec733;
+  --color-dark: #353537;
+  --color-light: #ffffff;
+  --brr: 5px;
+  --pd: 20px;
+  --pd-small: 10px;
+  --pd-big: 40px;
+  --mrg: 20px;
+  --mrg-small: 10px;
+  --mrg-big: 40px;
+  --font-extra-large: 56px;
+  --font-large: 42px;
+  --font-big: 34px;
+  --font-regular: 16px;
+  --font-medium: 24px;
+  --font-small: 14px;
+  --font-extra-small: 12px;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--color-dark);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700 !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--bg-primary) inset !important;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  background: var(--color-light);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--bg-secondary);
+}
